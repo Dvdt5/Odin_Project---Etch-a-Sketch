@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+body {
+    background-color: rgb(200, 200, 200);
+}
+
+#change-number {
+    margin: auto;
+    width: 30%;
+    padding: 30px;
+    border: 5px solid black;
+    text-align: center;
+}
+
+#tile-number-input {
+    margin-top: 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+#change-number-btn {
+    border: 5px solid black;
+    margin-top: 15px;
+}
+
+#change-number-btn:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#paint-board {
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#colors {
+    border: 5px solid black;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
