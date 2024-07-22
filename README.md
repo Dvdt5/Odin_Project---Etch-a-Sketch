@@ -1,1 +1,1 @@
-# Odin_Project---Etch-a-Sketch
+This is my Etch-a-Sketch game.
