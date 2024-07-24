@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(200, 200, 200);
+    background-color: wheat;
 }
 
 #change-number {
@@ -44,6 +44,7 @@ body {
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    background-color: black;
 }
 
 #colors {
@@ -56,10 +57,18 @@ body {
 .color-tile {
     width: 125px;
     height: 125px;
-    background-color: aqua;
+    background-color: white;
     
 }
 
-.color-tile:hover {
-    background-color: antiquewhite;
+
+.paint-tile {
+    width: 100px;
+    height: 100px;
+    
+    box-sizing: border-box;
+}
+
+.paint-tile:hover {
+    border: 3px solid black;
 }
